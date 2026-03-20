@@ -1,6 +1,7 @@
 package api.example;
 
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -66,7 +67,111 @@ public class Main {
 //        task 3
 
 
+//        System.out.println("Progresiyaning hadini kiriting");
+//        int n = scanner.nextInt();
+//        System.out.println("birinchi hadini va d ni kiriting:");
+//        int a1 , d;
+//        int[] arr = new int[n];
+//        a1 = scanner.nextInt();
+//        d = scanner.nextInt();
+//
+//        for(int i =1 ; i<=n ; i++){
+//            arr[i-1] = a1+(i-1)*d;
+//        }
+//
+//        for(int j: arr){
+//            System.out.print(j+" ");
+//        }
+
+
+
+//        task 4
+
+
+//        System.out.println("Progresiyaning hadini kiriting:");
+//        int n = scanner.nextInt();
+//        System.out.println("birinchi hadini va d ni kiriting:");
+//        double b1 , q;
+//        double[] arr = new double[n];
+//        b1 = scanner.nextInt();
+//        q = scanner.nextInt();
+//
+//        for(int i =1 ; i<=n ; i++){
+//            arr[i-1] = b1*Math.pow(q,i-1);
+//        }
+//
+//        for(double j: arr){
+//            System.out.print(j+" ");
+//        }
+
+
+
+//        task 5
+
+
+//        System.out.println("n hadini kirting:");
+//        int n = scanner.nextInt();
+//        int fibo1 = 0;
+//        int fibo2 = 1;
+//        int[] fibos = new int[n];
+//        fibos[0] = fibo1;
+//        fibos[1] = fibo2;
+//
+//        for (int i=2;i<n;i++){
+//            fibos[i] = fibo1 + fibo2;
+//            int newFibo = fibo1;
+//            fibo1 = fibo2;
+//            fibo2 = newFibo + fibo2;
+//        }
+//
+//        for(int j:fibos){
+//            System.out.print(j+" ");
+//        }
+
+
+
+//        task 6
+
+
+
+
+//        System.out.println("n hadini kirting:");
+//        int n = scanner.nextInt();
+//        System.out.println("A va B ni kirting:");
+//        int a,b;
+//        a  = scanner.nextInt();
+//        b = scanner.nextInt();
+//        int fibo1 = a;
+//        int fibo2 = b;
+//        int[] fibos = new int[n];
+//        fibos[0] = fibo1;
+//        fibos[1] = fibo2;
+//        fibos[2] = fibo2+fibo1;
+//
+//        for (int i=3;i<n;i++){
+//            fibos[i] = 2*fibos[i-1];
+//        }
+
+//        for(int j:fibos){
+//            System.out.print(j+" ");
+//        }
+
+
+
+//        task 7
         
+//        int[] arr = new int[5];
+//        for(int i=0;i<5;i++){
+//            arr[i] = scanner.nextInt();
+//        }
+//        System.out.println(Arrays.toString(arr));
+//
+//        int[] arr2 = new int[5];
+//        for(int i=4;i>=0;i--){
+//            arr2[i] = arr[arr.length-1-i];
+//        }
+//        System.out.println(Arrays.toString(arr2));
+
 
 
     }
