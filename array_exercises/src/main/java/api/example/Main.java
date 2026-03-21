@@ -159,7 +159,7 @@ public class Main {
 
 
 //        task 7
-        
+
 //        int[] arr = new int[5];
 //        for(int i=0;i<5;i++){
 //            arr[i] = scanner.nextInt();
@@ -174,6 +174,183 @@ public class Main {
 
 
 
+//        task 8
+
+
+//        int[] arr = {4,5 ,7,8,6,9};
+//        int count = 0;
+//        int[] odd = new int[arr.length];
+//        for (int i = 0; i < arr.length; i++) {
+//            if(arr[i]%2==1){
+//                odd[count] =  arr[i];
+//                count++;
+//            }
+//        }
+//        System.out.println(Arrays.toString(odd));
+//        System.out.println(count);
+//
+
+
+
+//        task 9
+
+//        int[] arr = {4,5 ,7,8,6,9};
+//        int count = 0;
+//        int[] even = new int[arr.length];
+//        for (int i = arr.length-1; i >= 0 ; i--) {
+//            if(arr[i]%2==0){
+//                even[count] =  arr[i];
+//                count++;
+//            }
+//        }
+//        int[] temp = Arrays.copyOf(even,count);
+//        System.out.println(Arrays.toString(temp));
+//        System.out.println(count);
+
+
+
+//        task 10
+
+
+//        int[] arr = {4,5,7,8,6,9};
+//        int[] temp = new int[arr.length];
+//        int count = 0;
+//        for(int i=0;i<arr.length;i++){
+//            if(arr[i]%2==0){
+//                temp[count] =  arr[i];
+//                count++;
+//            }
+//        }
+//        for(int i=arr.length-1;i>=0;i--){
+//            if(arr[i]%2==1){
+//                temp[count] =  arr[i];
+//                count++;
+//            }
+//        }
+//
+//        System.out.println(Arrays.toString(temp));
+
+
+
+//        task 11
+
+
+//        System.out.println("massivning nechtaligini kiriting:");
+//        int n = scanner.nextInt();
+//        int[] arr = new int[n];
+//        int[] temp = new int[n];
+//        int count = 0;
+//        System.out.println("k sonini kirting");
+//        int k  = scanner.nextInt();
+//        for (int i = 0; i < n; i++) {
+//            arr[i] = scanner.nextInt();
+//        }
+//
+//        for(int i = k ; i < n; i+=k){
+//            temp[count]=arr[i];
+//            count++;
+//        }
+//        System.out.println(Arrays.toString(Arrays.copyOf(temp,count)));
+
+
+
+//        task 12
+
+
+//        System.out.println("massivning sonini kirting:");
+//        int n = scanner.nextInt();
+//        int[] temp = new int[n];
+//        int count = 0;
+//        int[] arr = new int[n];
+//        for (int i = 0; i < n; i++) {
+//            arr[i] = scanner.nextInt();
+//        }
+//
+//        for (int i = 0; i < n; i+=2) {
+//            temp[count] = arr[i];
+//            count++;
+//        }
+//
+//        System.out.println(Arrays.toString(Arrays.copyOf(temp, count)));
+
+
+
+//        task 13
+
+
+//        System.out.println("n ni kirting:");
+//        int n = scanner.nextInt();
+//        int[] arr = new int[n];
+//        int[] temp = new int[n];
+//
+//        int count = 0;
+//        for (int i = 0; i < n; i++) {
+//            arr[i] = scanner.nextInt();
+//        }
+//
+//
+//        for (int i = 1; i < n; i+=2) {
+//            temp[count] = arr[n-i];
+//            count++;
+//        }
+//
+//        System.out.println(Arrays.toString(Arrays.copyOf(temp, count)));
+
+
+//        task 14
+
+
+//        System.out.println("n ni kirting:");
+//        int n = scanner.nextInt();
+//        int count =  0;
+//        int[] temp = new int[n];
+//        int[] arr = new int[n];
+//        for (int i = 0; i < n; i++) {
+//            arr[i] = scanner.nextInt();
+//        }
+//
+//        for (int i = 0; i < n; i+=2) {
+//            temp[count] =  arr[i];
+//            count++;
+//        }
+//
+//
+//        for (int i = 1; i < n; i+=2) {
+//            temp[count] =  arr[i];
+//            count++;
+//        }
+//
+//        System.out.println(Arrays.toString(temp));
+
+
+        //task 15
+
+
+
+//        System.out.println("n ni kirting:");
+//        int n = scanner.nextInt();
+//        int count =  0;
+//        int[] temp = new int[n];
+//        int[] arr = new int[n];
+//        for (int i = 0; i < n; i++) {
+//            arr[i] = scanner.nextInt();
+//        }
+//
+//        for (int i = 1; i < n; i+=2) {
+//            temp[count] =  arr[i];
+//            count++;
+//        }
+//
+//
+//        for (int i = n-2; i >= 0; i-=2) {
+//            temp[count] =  arr[i];
+//            count++;
+//        }
+//
+//        System.out.println(Arrays.toString(temp));
+//
+//
+//
     }
 
 
